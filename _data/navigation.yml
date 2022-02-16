@@ -1,0 +1,10 @@
+- link: /
+  name: Home
+- link: /fundamentals
+  name: Fundamentals
+  highlight: true
+- link: /about/
+  name: About
+  highlight: true
+- link: /contact/
+  name: Contact

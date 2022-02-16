@@ -1,0 +1,46 @@
+---
+---
+
+@import 'bootstrap/bootstrap';
+
+body {
+  background-color: #FAF0E6;
+}
+// Navigation
+ul.nav {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  li {
+    padding-left: 2em;
+  }
+}
+
+// Headings
+h1, h2, h3 {
+  text-align: center;
+  color: #008080;
+  margin-top: 1.2em;
+  margin-bottom: 0.8em;
+}
+h3 {
+  text-align: left;
+}
+.article-subheading {
+  padding-top: 1.2em;
+  padding-bottom: 1.0em;
+  padding-left: 1em;
+  border-left: 3px solid #008080;
+}
+
+// Article body
+.lead {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.scripture {
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: large;
+  font-family: serif;
+  color: #0059b3;
+}
