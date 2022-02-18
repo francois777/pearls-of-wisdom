@@ -1,0 +1,19 @@
+# Site settings
+
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Pearls of Wisdom"
+email: "francoisvdhoven@protonmail.com"
+author: "Francois van der Hoven"
+description:
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: css
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true

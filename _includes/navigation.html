@@ -1,0 +1,10 @@
+<ul class="nav justify-content-center">
+  {% for item in site.data.navigation %}
+  <li class="nav-item">
+    <a {% if item.name == page.active-page %} style="font-weight:bold;" {% endif %}
+    href="{{ item.link }}">
+      {{item.name}}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
