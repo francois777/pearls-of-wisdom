@@ -8,10 +8,13 @@ body {
 }
 // Navigation
 ul.nav {
+  margin-top: 1em;
   padding-top: 2em;
-  padding-bottom: 2em;
+  padding-bottom: 0.8em;
   li {
     padding-left: 2em;
+    a { font-size: larger; }
+    // a.active { font-weight: bold; }
   }
 }
 
@@ -19,8 +22,8 @@ ul.nav {
 h1, h2, h3 {
   text-align: center;
   color: #008080;
-  margin-top: 1.2em;
-  margin-bottom: 0.8em;
+  margin-top: 0.8em;
+  margin-bottom: 0.6em;
 }
 h3 {
   text-align: left;
@@ -30,6 +33,11 @@ h3 {
   padding-bottom: 1.0em;
   padding-left: 1em;
   border-left: 3px solid #008080;
+  border-top: 2px solid #008080;
+  background-color: #F5F5DC;
+  display: block;
+  clear: left;
+  margin-top: 1em;
 }
 
 // Article body
@@ -43,4 +51,30 @@ h3 {
   font-size: large;
   font-family: serif;
   color: #0059b3;
+}
+
+.discussion-heading {
+  margin-bottom: 0;
+  color: #CD853F;
+  font-weight: bold;
+}
+
+.discussion-points {
+  padding-bottom: 0;
+  color: #CD853F;
+}
+
+img.growth {
+  display: block;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1.4em;
+}
+
+// Footer
+footer {
+  margin-top: 5em;
+  margin-bottom: 1.5em;
+  font-size: 0.8em;
+  text-align: center;
 }

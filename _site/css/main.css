@@ -2058,18 +2058,28 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
 
 body { background-color: #FAF0E6; }
 
-ul.nav { padding-top: 2em; padding-bottom: 2em; }
+ul.nav { margin-top: 1em; padding-top: 2em; padding-bottom: 0.8em; }
 
 ul.nav li { padding-left: 2em; }
 
-h1, h2, h3 { text-align: center; color: #008080; margin-top: 1.2em; margin-bottom: 0.8em; }
+ul.nav li a { font-size: larger; }
+
+h1, h2, h3 { text-align: center; color: #008080; margin-top: 0.8em; margin-bottom: 0.6em; }
 
 h3 { text-align: left; }
 
-.article-subheading { padding-top: 1.2em; padding-bottom: 1.0em; padding-left: 1em; border-left: 3px solid #008080; }
+.article-subheading { padding-top: 1.2em; padding-bottom: 1.0em; padding-left: 1em; border-left: 3px solid #008080; border-top: 2px solid #008080; background-color: #F5F5DC; display: block; clear: left; margin-top: 1em; }
 
 .lead { margin-top: 1em; margin-bottom: 2em; }
 
 .scripture { margin-left: 2em; margin-right: 2em; font-size: large; font-family: serif; color: #0059b3; }
+
+.discussion-heading { margin-bottom: 0; color: #CD853F; font-weight: bold; }
+
+.discussion-points { padding-bottom: 0; color: #CD853F; }
+
+img.growth { display: block; float: left; margin-right: 1em; margin-bottom: 1.4em; }
+
+footer { margin-top: 5em; margin-bottom: 1.5em; font-size: 0.8em; text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
