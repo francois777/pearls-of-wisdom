@@ -3,3 +3,9 @@ https://experimentingwithcode.com/creating-a-jekyll-blog-with-bootstrap-4-and-sa
 
 The code is available at:
 https://github.com/riebeekn/jekyll-bootstrap-4-minimal-starter
+
+Significant dependencies:
+Bootstrap v4.0.0 (https://getbootstrap.com)
+bundler 2.3.7
+sassc 2.4.0
+jekyll 4.2.1
