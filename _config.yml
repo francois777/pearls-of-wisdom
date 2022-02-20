@@ -17,5 +17,3 @@ defaults:
       path: "assets/img"
     values:
       image: true
-
-theme: jekyll-theme-merlot
