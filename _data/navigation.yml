@@ -3,8 +3,11 @@
 - link: /fundamentals
   name: Fundamentals
   highlight: true
+<<<<<<< HEAD
 - link: /about/
   name: About
   highlight: true
+=======
+>>>>>>> master
 - link: /contact/
   name: Contact

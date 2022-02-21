@@ -14,7 +14,10 @@ ul.nav {
   li {
     padding-left: 2em;
     a { font-size: larger; }
+<<<<<<< HEAD
     // a.active { font-weight: bold; }
+=======
+>>>>>>> master
   }
 }
 
@@ -70,6 +73,18 @@ img.growth {
   margin-right: 1em;
   margin-bottom: 1.4em;
 }
+<<<<<<< HEAD
+=======
+img.object {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// .btn-primary.active {
+//   background-color: #6495ED;
+// }
+>>>>>>> master
 
 // Footer
 footer {
