@@ -5,5 +5,7 @@
   highlight: true
 - link: /salvation/
   name: Salvation
+- link: /resources
+  name: Resources
 - link: /contact/
   name: Contact

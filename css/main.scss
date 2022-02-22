@@ -76,8 +76,23 @@ img.object {
   margin-right: auto;
 }
 
+// Resources
+.card {
+  float: left;
+  margin-right: 4em;
+  margin-bottom: 2em;
+  background-color: #AFEEEE;
+  .card-text {
+    background-color: #F5FCF5;
+    padding: 0.6em;
+  }
+}
+
+
 // Footer
 footer {
+  clear: both;
+  padding-top: 5em;
   margin-top: 5em;
   margin-bottom: 1.5em;
   font-size: 0.8em;
