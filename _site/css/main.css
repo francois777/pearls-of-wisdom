@@ -2082,6 +2082,12 @@ img.growth { display: block; float: left; margin-right: 1em; margin-bottom: 1.4e
 
 img.object { display: block; margin-left: auto; margin-right: auto; }
 
+html, body { height: 100%; }
+
+#cover { margin-top: 3em; padding-top: 2em; padding-bottom: 2em; background: #20B2AA; background-size: cover; color: white; height: 100%; display: flex; label-width: 100px; }
+
+#cover-caption { width: 100%; }
+
 .card { float: left; margin-right: 4em; margin-bottom: 2em; background-color: #AFEEEE; }
 
 .card .card-text { background-color: #F5FCF5; padding: 0.6em; }

@@ -76,6 +76,29 @@ img.object {
   margin-right: auto;
 }
 
+// Forms
+html,
+body{
+ height: 100%;
+}
+
+#cover {
+  margin-top: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background: #20B2AA;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  display: flex;
+  label: {
+    width: 100px;
+  }
+}
+#cover-caption {
+  width: 100%;
+}
+
 // Resources
 .card {
   float: left;
