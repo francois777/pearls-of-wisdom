@@ -40,6 +40,17 @@ h3 {
 }
 
 // Article body
+section.article {
+  margin-bottom: 2em;
+}
+.container.article {
+  p.large {
+    font-size: 1.2em;
+  }
+  .row {
+    margin-bottom: 2em;
+  }
+}
 .lead {
   margin-top: 1em;
   margin-bottom: 2em;
@@ -74,6 +85,16 @@ img.object {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+img.sml {
+  width: 50%;
+  text-align: center;
+}
+
+.img-title {
+  color: RoyalBlue;
+  font-style: italic;
 }
 
 // Forms
