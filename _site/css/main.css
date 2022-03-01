@@ -2058,7 +2058,7 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
 
 body { background-color: #FAF0E6; }
 
-ul.nav { margin-top: 1em; padding-top: 2em; padding-bottom: 0.8em; }
+ul.nav { background-color: #FCE9E2; margin-top: 1em; padding-top: 1.4em; padding-bottom: 1.4em; }
 
 ul.nav li { padding-left: 2em; }
 
@@ -2104,10 +2104,14 @@ html, body { height: 100%; }
 
 #cover-caption { width: 100%; }
 
-.card { float: left; margin-right: 4em; margin-bottom: 2em; background-color: #AFEEEE; }
+.cards { display: flex; flex-wrap: wrap; align-content: space-around; flex-direction: row; }
+
+.card { margin-right: 2em; margin-bottom: 2em; background-color: #AFEEEE; border-radius: 15px; border-width: 2px; border-color: teal; }
+
+.card .card-title { color: teal; }
 
 .card .card-text { background-color: #F5FCF5; padding: 0.6em; }
 
-footer { clear: both; padding-top: 5em; margin-top: 5em; margin-bottom: 1.5em; font-size: 0.8em; text-align: center; }
+footer { clear: both; padding-top: 2em; padding-bottom: 2em; margin-top: 5em; font-size: 0.8em; text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

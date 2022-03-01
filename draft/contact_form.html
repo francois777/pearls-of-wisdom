@@ -1,54 +1,28 @@
+
+
+
 <section id="cover">
   <div id="cover-caption">
     <div class="row">
       <div class="col-sm-8 col-md-8 col-lg-8 offset-2">
         <form
-          action="https://formspree.io/f/xoqrdbyr"
-          method="POST"
-        >
-        <div class="row">
-          <div class="col">
-            <div class="md-form mb-0">
-              <input type="text" id="name" name="name" class="form-control">
-              <label for="name" class="">Your name</label>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-              <div class="md-form mb-0">
-                  <input type="text" id="email" name="email" class="form-control">
-                  <label for="email" class="">Your email</label>
-              </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <div class="md-form mb-0">
-              <input type="text" id="subject" name="subject" class="form-control">
-              <label for="subject" class="">Subject</label>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <div class="md-form">
-              <textarea type="text" id="message" name="message" rows="8" cols="150" class="form-control md-textarea">
-              </textarea>
-              <label for="message">Your message</label>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col">
+          class="contact-form" name="contact"
+          method="POST" data-netlify="true"
+          action="https://formspree.io/f/xoqrdbyr">
+          <p class="name">
+            <label>Your Name: <input type="text" name="name" /></label>
+          </p>
+          <p class="name">
+            <label>Your Email: <input type="email" name="email" /></label>
+          </p>
+          <p class="name">
+            <label>Message: <textarea name="message" rows="8" cols="150"></textarea></label>
+          </p>
+          <p class="name">
             <button type="submit">Send</button>
-          </div>
-        </div>
-      </form>
-
+          </p>
+        </form>
+      </div>
     </div>
   </div>
-</div>
+</section>
