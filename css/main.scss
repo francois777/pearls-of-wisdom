@@ -144,7 +144,7 @@ body{
 }
 .teaching {
   margin: 2em;
-  padding: 2em;
+  padding: 1em;
   background-color: #6B8E23;
   border-radius: 15px;
   border-width: 2px;
@@ -155,9 +155,12 @@ body{
   a {
     text-decoration: none;
   }
+  p {
+    color: white;
+  }
 
   .heading {
-    color: #EEEEEE;
+    color: #DDD;
     text-align: center;
   }
 }

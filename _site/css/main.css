@@ -2106,11 +2106,13 @@ html, body { height: 100%; }
 
 .teachings { display: flex; flex-wrap: wrap; align-content: space-around; flex-direction: row; }
 
-.teaching { margin: 2em; padding: 2em; background-color: #6B8E23; border-radius: 15px; border-width: 2px; border-color: #ddd; width: 240px; height: 120px; }
+.teaching { margin: 2em; padding: 1em; background-color: #6B8E23; border-radius: 15px; border-width: 2px; border-color: #ddd; width: 240px; height: 120px; }
 
 .teaching a { text-decoration: none; }
 
-.teaching .heading { color: #EEEEEE; text-align: center; }
+.teaching p { color: white; }
+
+.teaching .heading { color: #DDD; text-align: center; }
 
 .cards { display: flex; flex-wrap: wrap; align-content: space-around; flex-direction: row; }
 
