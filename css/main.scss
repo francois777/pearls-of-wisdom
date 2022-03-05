@@ -135,6 +135,33 @@ body{
   width: 100%;
 }
 
+// Teachings
+.teachings {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  flex-direction: row;
+}
+.teaching {
+  margin: 2em;
+  padding: 2em;
+  background-color: #6B8E23;
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: #ddd;
+  width: 240px;
+  height: 120px;
+
+  a {
+    text-decoration: none;
+  }
+
+  .heading {
+    color: #EEEEEE;
+    text-align: center;
+  }
+}
+
 // Resources
 .cards {
   display: flex;

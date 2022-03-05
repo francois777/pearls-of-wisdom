@@ -1,15 +1,12 @@
 - link: /
   name: Home
-- link: /fundamentals
-  name: Fundamentals
-  highlight: true
-- link: /salvation/
-  name: Salvation
-- link: /spiritual-growth
-  name: Spiritual Growth
+- link: /teachings
+  name: Teachings
 - link: /bible-stories/
   name: Bible Stories
 - link: /resources
   name: Resources
 - link: /contact/
   name: Contact
+- link: /about/
+  name: About
