@@ -2082,6 +2082,8 @@ section.article { margin-bottom: 2em; }
 
 .container.article.large-text span { font-family: serif; color: RoyalBlue; font-size: 1.1em; }
 
+section#invite { margin-left: 12%; margin-right: 12%; }
+
 .container p .very-bold { font-weight: 700; }
 
 .article p .very-bold { font-weight: 600; }
@@ -2108,9 +2110,9 @@ html, body { height: 100%; }
 
 #cover-caption { width: 100%; }
 
-.teachings { display: flex; flex-wrap: wrap; align-content: space-around; flex-direction: row; }
+.teachings { margin-top: 2em; display: flex; flex-wrap: wrap; justify-content: center; flex-direction: row; }
 
-.teaching { margin: 2em; padding: 1em; background-color: #6B8E23; border-radius: 15px; border-width: 2px; border-color: #ddd; width: 240px; height: 120px; }
+.teaching { margin: 1em; padding: 1em; background-color: #6B8E23; border-radius: 15px; border-width: 2px; border-color: #ddd; width: 240px; height: 120px; }
 
 .teaching a { text-decoration: none; }
 
@@ -2118,7 +2120,7 @@ html, body { height: 100%; }
 
 .teaching .heading { color: #DDD; text-align: center; }
 
-.cards { display: flex; flex-wrap: wrap; align-content: space-around; flex-direction: row; }
+.cards { display: flex; flex-wrap: wrap; justify-content: center; align-content: space-around; flex-direction: row; }
 
 .card { margin-right: 2em; margin-bottom: 2em; background-color: #AFEEEE; border-radius: 15px; border-width: 2px; border-color: teal; }
 
