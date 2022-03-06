@@ -66,6 +66,13 @@ section.article {
   }
 }
 
+.container p .very-bold {
+  font-weight: 700;
+}
+.article p .very-bold {
+  font-weight: 600;
+}
+
 .lead {
   margin-top: 1em;
   margin-bottom: 2em;
