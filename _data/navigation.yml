@@ -1,7 +1,7 @@
 - link: /
   name: Home
-- link: /teachings
-  name: Teachings
+- link: /learn
+  name: Learn
 - link: /bible-stories/
   name: Bible Stories
 - link: /resources

@@ -2064,13 +2064,15 @@ ul.nav li { padding-left: 2em; }
 
 ul.nav li a { font-size: larger; }
 
-h1, h2, h3 { text-align: center; color: #008080; margin-top: 0.8em; margin-bottom: 0.6em; }
+h1, h2, h3 { color: #008080; margin: 0.8em auto 0.6em auto; }
 
 h3 { text-align: left; }
 
 .article-subheading { padding-top: 1.2em; padding-bottom: 1.0em; padding-left: 1em; border-left: 3px solid #008080; border-top: 2px solid #008080; background-color: #F5F5DC; display: block; clear: left; margin-top: 1em; }
 
 section.article { margin-bottom: 2em; }
+
+hr.divider { border-top: 1px solid green; height: 2px; margin: 2px auto 8px auto; width: 90%; }
 
 .container.article p.large { font-size: 1.2em; }
 
@@ -2092,6 +2094,8 @@ section#invite { margin-left: 12%; margin-right: 12%; }
 
 .scripture { margin-left: 2em; margin-right: 2em; font-size: large; font-family: serif; color: MediumBlue; }
 
+.scripture.large { font-size: 1.2em; }
+
 .discussion-heading { margin-bottom: 0; color: #CD853F; font-weight: bold; }
 
 .discussion-points { padding-bottom: 0; color: #CD853F; }
@@ -2112,13 +2116,15 @@ html, body { height: 100%; }
 
 .teachings { margin-top: 2em; display: flex; flex-wrap: wrap; justify-content: center; flex-direction: row; }
 
-.teaching { margin: 1em; padding: 1em; background-color: #6B8E23; border-radius: 15px; border-width: 2px; border-color: #ddd; width: 240px; height: 120px; }
+.teaching { margin: 1em; padding: 1em; background-color: #6B8E23; border-radius: 15px; border-width: 2px; border-color: #ddd; width: 240px; height: 140px; transition: transform .2s; }
 
 .teaching a { text-decoration: none; }
 
 .teaching p { color: white; }
 
 .teaching .heading { color: #DDD; text-align: center; }
+
+.teaching:hover { transform: scale(1.2); }
 
 .cards { display: flex; flex-wrap: wrap; justify-content: center; align-content: space-around; flex-direction: row; }
 

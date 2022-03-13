@@ -20,10 +20,8 @@ ul.nav {
 
 // Headings
 h1, h2, h3 {
-  text-align: center;
   color: #008080;
-  margin-top: 0.8em;
-  margin-bottom: 0.6em;
+  margin: 0.8em auto 0.6em auto;
 }
 h3 {
   text-align: left;
@@ -44,6 +42,13 @@ h3 {
 section.article {
   margin-bottom: 2em;
 }
+hr.divider {
+  border-top: 1px solid green;
+  height: 2px;
+  margin: 2px auto 8px auto;
+  width: 90%;
+}
+
 .container.article {
   p.large {
     font-size: 1.2em;
@@ -88,6 +93,9 @@ section#invite {
   font-size: large;
   font-family: serif;
   color: MediumBlue;
+}
+.scripture.large {
+  font-size: 1.2em;
 }
 
 .discussion-heading {
@@ -163,7 +171,8 @@ body{
   border-width: 2px;
   border-color: #ddd;
   width: 240px;
-  height: 120px;
+  height: 140px;
+  transition: transform .2s;
 
   a {
     text-decoration: none;
@@ -176,6 +185,9 @@ body{
     color: #DDD;
     text-align: center;
   }
+}
+.teaching:hover {
+  transform: scale(1.2);
 }
 
 // Resources
