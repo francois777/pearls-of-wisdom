@@ -5,6 +5,7 @@
 
 body {
   background-color: #FAF0E6;
+  font-family: arial;
 }
 // Navigation
 ul.nav {
@@ -118,8 +119,7 @@ img.growth {
 
 img.object {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto;
 }
 
 img.sml {
@@ -130,6 +130,28 @@ img.sml {
 .img-title {
   color: RoyalBlue;
   font-style: italic;
+}
+
+.list-group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+// Reflection
+section.reflection {
+  background-color: #F0FFF0; // honeydew
+  padding: 10px 20px;
+  font-size: 1.1em;
+  width: 90%;
+  margin: 12px auto;
+  .title {
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  ol > li {
+    margin-bottom: 5px;
+  }
 }
 
 // Forms
