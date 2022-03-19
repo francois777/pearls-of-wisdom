@@ -5,7 +5,8 @@
 
 body {
   background-color: #FAF0E6;
-  font-family: arial;
+  font-family: "helvitica neue";
+  font-size: "18px";
 }
 // Navigation
 ul.nav {
@@ -14,7 +15,8 @@ ul.nav {
   padding-top: 1.4em;
   padding-bottom: 1.4em;
   li {
-    padding-left: 2em;
+    padding-left: 0.2em;
+    padding-right: 1em;
     a { font-size: larger; }
   }
 }
@@ -24,8 +26,32 @@ h1, h2, h3 {
   color: #008080;
   margin: 0.8em auto 0.6em auto;
 }
+h1 {
+  font-size: 2.6rem;
+}
+h2 {
+  font-size: 2.0rem;
+  font-weight: 600;
+}
 h3 {
   text-align: left;
+  margin-top: 0;
+  font-size: 1.6rem;
+}
+h4 {
+  color: #008080;
+  text-align: left;
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  max-width: 720px;
+}
+p.center {
+  margin-left: auto;
+  margin-right: auto;
 }
 .article-subheading {
   padding-top: 1.2em;
@@ -42,8 +68,12 @@ h3 {
 // Article body
 section.article {
   margin-bottom: 2em;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 hr.divider {
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-top: 1px solid green;
   height: 2px;
   margin: 2px auto 8px auto;
@@ -52,7 +82,7 @@ hr.divider {
 
 .container.article {
   p.large {
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
   .row {
     margin-bottom: 2em;
@@ -60,15 +90,15 @@ hr.divider {
 }
 .container.article.large-text {
   p {
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
   p.img-title {
-    font-size: 1em;
+    font-size: 1rem;
   }
   span {
     font-family: serif;
     color: RoyalBlue;
-    font-size: 1.1em;
+    font-size: 1.1rem;
   }
 }
 
@@ -87,27 +117,59 @@ section#invite {
 .lead {
   margin-top: 1em;
   margin-bottom: 2em;
+  min-width: 550px;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.4rem;
+  width: 95%;
 }
 .scripture {
   margin-left: 2em;
   margin-right: 2em;
-  font-size: large;
+  font-size: 1.2rem;
   font-family: serif;
   color: MediumBlue;
 }
 .scripture.large {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .discussion-heading {
+  font-size: 1.1rem;
   margin-bottom: 0;
   color: #CD853F;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .discussion-points {
   padding-bottom: 0;
   color: #CD853F;
+  li {
+    font-size: 1.1rem;
+  }
+}
+
+.response-actions li {
+  font-size: 1.1rem;
+}
+
+.spiritual-laws li {
+  font-size: 1.1rem;
+}
+
+.habit-list li {
+  font-size: 1.1rem;
+}
+
+.read-action {
+  background-color: #6495ED;
+  font-size: 1.1rem;
+  padding: 5px 18px;
+}
+
+.read-action:hover {
+  background-color: #0000CD;
 }
 
 img.growth {
@@ -120,6 +182,8 @@ img.growth {
 img.object {
   display: block;
   margin: 10px auto;
+  width: 100%;
+
 }
 
 img.sml {
@@ -141,7 +205,7 @@ img.sml {
 section.reflection {
   background-color: #F0FFF0; // honeydew
   padding: 10px 20px;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   width: 90%;
   margin: 12px auto;
   .title {
@@ -184,7 +248,16 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    color: white;
+  }
 }
+
 .teaching {
   margin: 1em;
   padding: 1em;
@@ -195,13 +268,6 @@ body{
   width: 240px;
   height: 140px;
   transition: transform .2s;
-
-  a {
-    text-decoration: none;
-  }
-  p {
-    color: white;
-  }
 
   .heading {
     color: #DDD;
@@ -243,6 +309,6 @@ footer {
   padding-top: 2em;
   padding-bottom: 2em;
   margin-top: 5em;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   text-align: center;
 }
